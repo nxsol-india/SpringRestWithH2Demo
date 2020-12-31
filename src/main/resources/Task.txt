@@ -1,0 +1,14 @@
+1. There will be 2 types of users: User and Admin.  - Done
+2. As a User, I can create a user with following details: username, firstname, last name. - Done
+3. As a User, I can send friend requests to other users - Done
+3. As a User, I can accept or reject friend requests from another user - Done
+4. As an Admin, I can delete users. All the relations with that user should be deleted. (User can't perform this action)- Done
+
+5. Use H2 in memory db- Done
+6. Use  spring security to authorize users - Done
+7. For user creation: firstname, username are mandatory fields and username should contain between 8 to 16 alphanumeric characters. (use spring validation) - Done.
+8. In any API, while persisting data, if runtime exceptions occur it should rollback - Done
+9. Exceptions should be handled in a generic way and in case of any exception, standard response (code, message with proper response code) should be returned. (don't use try catch) - Done
+10. Logs should be maintained in the log file - Done
+11. Use Spring Data for data access - Done
+12. Code should be compact and contain less number of line (use Java8 features to reduce code quantity) - Done
